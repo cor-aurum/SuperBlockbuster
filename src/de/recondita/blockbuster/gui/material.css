@@ -1,0 +1,101 @@
+.fehler {
+	-fx-text-fill: red;
+}
+
+.button {
+	-fx-background-color: linear-gradient(#68efad 0%, #68efad 49%, #59D096 51%, #59D096 100% );
+	/*-fx-background-insets: 0, 1, 4, 5;*/
+	-fx-padding: 10 30 10 30;
+	-fx-background-radius: 0, 0, 0, 0;
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #9b26af;
+}
+
+.button Text {
+	/*-fx-effect: dropshadow(one-pass-box, white, 0, 0.0, 0, 1);*/
+}
+
+.button:hover {
+	-fx-background-color: #59D096;
+	/*-fx-background-insets: 0, 1, 4, 5;*/
+	-fx-padding: 10 30 10 30;
+	-fx-background-radius: 0, 0, 0, 0;
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #9b26af;
+}
+
+.label {
+	/*-fx-background-insets: 0, 1, 4, 5;
+	-fx-background-radius: 9, 8, 5, 4;*/
+	-fx-padding: 10 30 10 30;
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #68efad;
+}
+
+.text-field {
+	-fx-background-color: linear-gradient(white 0%, white 94%, #68efad 96%, #68efad 100% );
+	/*-fx-background-insets: 0, 1, 4, 5;*/
+	-fx-padding: 10 30 10 30;
+	-fx-background-radius: 0, 0, 0, 0;
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #9b26af;
+}
+
+.combo-box {
+	-fx-background-color: linear-gradient(#68efad 0%, #68efad 49%, #59D096 51%, #59D096 100% );
+	/*-fx-background-insets: 0, 1, 4, 5;*/
+	-fx-padding: 10 30 10 30;
+	-fx-background-radius: 0, 0, 0, 0;
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #9b26af;
+}
+
+.combo-box .list-cell {
+	-fx-padding: 5 15 5 15;
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #9b26af;
+}
+
+.tab-pane .tab {
+	-fx-background-color: linear-gradient(#68efad 0%, #68efad 49%, #59D096 51%, #59D096 100% );
+	/*-fx-background-insets: 0, 1, 4, 5;*/
+	-fx-padding: 10 30 10 30;
+	-fx-background-radius: 0, 0, 0, 0;
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #9b26af;
+}
+
+#stein1{
+	-fx-background-color: blue;
+}
+
+#stein2{
+	-fx-background-color: green;
+}
+
+#stein3{
+	-fx-background-color: red;
+}
+
+#stein0{
+	-fx-background-color: yellow;
+}
+
+
+#background {
+	-fx-background-color: #9b26af;
+}
